@@ -1,0 +1,96 @@
+.lblScreenTitle {
+    -fx-font: bold 24pt "Arial";
+    -fx-text-fill: #00c0ff;
+}
+
+.lblScreenInfo {
+    -fx-font: 14pt "Arial";
+    -fx-text-fill: #808080;
+}
+
+.lblFieldTitle {
+    -fx-font: bold 14pt "Arial";
+    -fx-text-fill: #404040;
+}
+
+.btnApprove {
+    -fx-cursor: hand;
+    -fx-font: bold 20pt "Arial";
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-background-color: linear-gradient(from 0% 0% to 00% 100%, #50c000 0%, #40a000 100%);
+}
+
+.btnApprove:hover {
+    -fx-background-color: linear-gradient(from 0% 0% to 00% 100%, #308000 0%, #206000 100%);
+    -fx-color: -fx-hover-base;
+}
+
+.btnOrange {
+    -fx-cursor: hand;
+    -fx-font: bold 20pt "Arial";
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-background-color: linear-gradient(from 0% 0% to 00% 100%, #ff8000 0%, #c06000 100%);
+}
+.btnOrange:hover {
+    -fx-background-color: linear-gradient(from 0% 0% to 00% 100%, #804000 0%, #603000 100%);
+    -fx-color: -fx-hover-base;
+}
+
+/*.check-box .box {
+    -fx-background-color: rgba(0, 0, 0, 0.1);
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 2, 2, 1, 1;
+    -fx-padding: 0.25em; 
+}
+.choice-box  {
+    -fx-background-color: rgba(0, 0, 0, 0.0);
+}
+ 
+.check-box:focused .box {
+    -fx-background-color: transparent, rgba(0, 0, 0, 0.1);
+    -fx-background-insets: -1.4, 0, 1, 2;
+    -fx-background-radius: 3.4, 2, 1, 1;
+}
+ 
+.check-box:hover .box {
+    -fx-color: -fx-hover-base;
+}
+ 
+.check-box:armed .box {
+    -fx-color: -fx-pressed-base;
+}
+ 
+.check-box .mark {
+    -fx-background-color: transparent;
+    -fx-background-insets: 1 0 -1 0, 0;
+    -fx-padding: 0.333333em; 
+    -fx-shape: "M0,4H2L3,6L6,0H8L4,8H2Z";
+}
+
+.check-box:indeterminate .mark {
+    -fx-background-color: #ff00c0;
+    -fx-shape: "M0,0H8V2H0Z";
+    -fx-scale-shape: false;
+}
+ 
+.check-box:selected .mark {
+    -fx-background-color: #ff00c0;
+}
+ 
+.check-box:disabled {
+    -fx-opacity: -fx-disabled-opacity;
+}
+ 
+.check-box:show-mnemonics .mnemonic-underline {
+    -fx-stroke: -fx-text-fill;
+} */
+
+.scroll-pane {
+    -fx-background-color:transparent;
+}
+.scroll-pane:focused {
+    -fx-background-color:transparent;
+}
+

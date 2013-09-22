@@ -1,0 +1,75 @@
+{
+    "version": "1.0",
+    "name": "Test Torrent Site",
+    "description": "Just a test torrent site for testing common connector",
+    "url": "http://localhost:8080/TestTorrentSite/",
+    "apiUrl": "/viwib/api.jsp",
+    "needLogin": true,
+    "keepAliveInterval": 60,
+    "categories": [
+        {
+            "id": "1",
+            "name": "Movies",
+            "description": "All kind of movies",
+            "adult": false,
+            "children": [
+                {
+                    "id": "11",
+                    "name": "XViD",
+                    "description": "XviD movies",
+                    "adult": false
+                },
+                {
+                    "id": "12",
+                    "name": "DVD-R",
+                    "description": "DVD-R movies",
+                    "adult": false
+                },
+                {
+                    "id": "13",
+                    "name": "HD",
+                    "description": "HD movies",
+                    "adult": false
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Adult",
+            "description": "Adult movies",
+            "adult": true,
+            "children": [
+                {
+                    "id": "21",
+                    "name": "XViD",
+                    "description": "XviD movies",
+                    "adult": true
+                },
+                {
+                    "id": "22",
+                    "name": "DVD-R",
+                    "description": "DVD-R movies",
+                    "adult": true
+                },
+                {
+                    "id": "23",
+                    "name": "HD",
+                    "description": "HD movies",
+                    "adult": true
+                }
+            ]
+        }
+    ],
+    "sortCategories": [
+        {
+            "id": "1",
+            "name": "Title",
+            "isDescending": false,
+        },
+        {
+            "id": "2",
+            "name": "Seeders",
+            "isDescending": true,
+        }
+    ]
+}
